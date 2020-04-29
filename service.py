@@ -45,3 +45,37 @@ def getTVGenres():
     """
 
     # return genresList
+
+
+def getMovieRecs():
+    """
+    Discover movies api
+    https://api.themoviedb.org/3/discover/movie?api_key=" + "&language=en-US"
+
+    - Sort by popularity?
+
+    All optional queries
+    - Release Date
+    - Popularity
+    - Vote Average
+    - Genre
+    - Runtime (range)
+
+    Get movie IDs
+    """
+
+    """
+    Use get details api to get movie data?
+    https://api.themoviedb.org/3/movie/{movie_id}?api_key=<<api_key>>&language=en-US
+    """
+
+    """
+    Movie object
+    - Title
+    - Description
+    - Runtime
+    - Rating / 10
+    - Poster URL (https://image.tmdb.org/t/p/w500/)
+    """
+    movieList = []
+    return movieList
