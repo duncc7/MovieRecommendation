@@ -10,12 +10,12 @@ def getMovieGenres():
     """
     genres returns a JSON object with all the genres, formatted like this:
 
-    {‘genres': 
+    {'genres': 
         [
-            {‘id': 28, ‘name': ‘Action'}, 
-            {‘id': 12, ‘name': ‘Adventure'},
+            {'id': 28, 'name': 'Action'},
+            {'id': 12, 'name': 'Adventure'},
             ...
-            {‘id': 37, ‘name': ‘Western'}
+            {'id': 37, 'name': 'Western'}
         ]
     }
 
